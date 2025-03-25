@@ -12,6 +12,7 @@ phases:
     commands:
       - echo Running CDK synth...
       - cdk synth  # Run CDK synthesis
+      - ls -al cdk.out # To list the contents of the cdk.out folder
 artifacts:
   files:
-    - cdk.out/**
+     - cdk.out/MyCdkProjectStack.template.json
