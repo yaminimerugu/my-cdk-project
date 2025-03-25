@@ -14,4 +14,4 @@ phases:
       - cdk synth  # Run CDK synthesis
 artifacts:
   files:
-    - '**/*'
+    - cdk.out/**
